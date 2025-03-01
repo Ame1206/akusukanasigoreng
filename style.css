@@ -204,7 +204,7 @@ span{
 .typing-text span::before{
     content: 'Software Developer';
     color: #00ffee;
-    animation: words 10s infinite;
+    animation: words 20s infinite;
 }
 
 .typing-text span::after{
@@ -215,7 +215,7 @@ span{
     height: 100%;
     border-left: 3px solid black;
     right: -8;
-    animation: cursor 0.7s infinite;
+    animation: cursor 0.6s infinite;
 }
 
 @keyframes cursor{
